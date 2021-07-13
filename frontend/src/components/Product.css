@@ -1,0 +1,175 @@
+.product {
+  width: 300px;
+  padding: 1rem;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  margin: 8px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product > img {
+  height: 185px;
+  border-radius: 8px;
+}
+
+.product__info {
+  margin-top: 6px;
+}
+
+.product__info > p {
+  margin-bottom: 6px;
+  text-overflow: ellipsis;
+}
+
+.info__price {
+  font-weight: bold;
+}
+
+.info__name {
+  font-size: 1rem;
+  overflow: hidden;
+}
+
+.info__description {
+  font-size: 0.8rem;
+}
+
+.info__button {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
+  color: #171717;
+  background: #f4f4f4;
+  padding: 8px 16px;
+  border: 1px solid #171717;
+  font-size: 1rem;
+}
+
+.info__button:hover {
+  color: #f4f4f4;
+  background: #171717;
+}
+
+@media (max-width: 1232px) {
+  .product {
+    width: 320px;
+  }
+
+  .product > img {
+    height: 195px;
+    border-radius: 8px;
+  }
+  .product__info {
+    margin-top: 6px;
+  }
+
+  .product__info > p {
+    margin-bottom: 6px;
+  }
+}
+
+@media (max-width: 1115px) {
+  .product {
+    width: 330px;
+  }
+
+  .product > img {
+    height: 200px;
+    border-radius: 8px;
+  }
+  .product__info {
+    margin-top: 6px;
+  }
+
+  .product__info > p {
+    margin-bottom: 6px;
+  }
+}
+
+@media (max-width: 1028px) {
+  .product {
+    width: 300px;
+  }
+
+  .product__info {
+    margin-top: 6px;
+  }
+
+  .product__info > p {
+    margin-bottom: 6px;
+  }
+}
+
+@media (max-width: 915px) {
+  .product {
+    width: 400px;
+  }
+
+  .product > img {
+    height: 230px;
+    border-radius: 8px;
+  }
+
+  .product__info {
+    padding: 0 12px;
+  }
+
+  .product__info {
+    margin-top: 10px;
+  }
+
+  .product__info > p {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 830px) {
+  .product {
+    width: 330px;
+  }
+
+  .product > img {
+    height: 195px;
+    border-radius: 8px;
+  }
+
+  .product__info {
+    padding: 0 5px;
+  }
+}
+
+@media (max-width: 700px) {
+  .product {
+    width: 290px;
+  }
+
+  .product > img {
+    height: 165px;
+    border-radius: 8px;
+  }
+}
+
+@media (max-width: 630px) {
+  .product {
+    width: 450px;
+  }
+
+  .product > img {
+    height: 273px;
+    border-radius: 8px;
+  }
+}
+
+@media (max-width: 500px) {
+  .product {
+    width: 300px;
+  }
+
+  .product > img {
+    height: 173px;
+    border-radius: 8px;
+  }
+}
